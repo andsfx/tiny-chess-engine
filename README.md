@@ -9,7 +9,7 @@ payload and plays the gauntlet through the env at `MAKEFUN_ENV_URL`.
 
 ## Engine
 
-Alpha-beta search on a 0x88 board with iterative deepening, null-move and delta pruning, quiescence, and a 300k node budget. Elo 1654 on the practice gauntlet.
+Alpha-beta search on a 0x88 board with iterative deepening, late-move reduction, check extension, null-move and delta pruning, quiescence, and a 300k node budget. Elo 2112 on the practice gauntlet (6/6 wins, the practice cap).
 
 - Board: 0x88 with Zobrist hashing and incremental evaluation
 - Search: iterative-deepening alpha-beta on a fixed node budget, quiescence
